@@ -1,0 +1,23 @@
+body {
+    background-color: #abff85;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 8px;
+}
+#calculadora {
+    background-color: #72ff52;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    color: #00190a;
+    font-size: large;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+}
