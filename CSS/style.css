@@ -1,12 +1,16 @@
 body {
     background-color: #abff85;
+    font-family: 'Dela Gothic One', cursive;
 }
+
 ul {
     list-style: none;
 }
+
 li {
     margin: 8px;
 }
+
 #calculadora {
     background-color: #72ff52;
     margin-left: 25%;
@@ -18,6 +22,43 @@ li {
     font-size: large;
     font-weight: bold;
 }
+
 input {
     width: 100%;
+    background: transparent;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: larger;
+    border-color: #0cb14e;
+}
+
+#resultado {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    border: 0px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    font-family: 'Dela Gothic One', cursive;
+    padding: 15px;
+}
+
+.boton {
+    text-align: center;
+}
+
+img.cabecera {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#medidor {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }

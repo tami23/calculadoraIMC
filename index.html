@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Calculadora IMC - Índice Masa Corporal</title>
 </head>
 
 <body>
     <header>
-
+        <img class="cabecera" src="./FILES/cabecera.jpg" alt="">
     </header>
     <section>
         <form id="calculadora" action="">
@@ -33,17 +35,22 @@
                     <input type="number" step="any" id="altura" name="user_height">
                 </li>
                 <li class="boton">
-                    <button onclick="return calcIMC();">Calcular</button>
+                    <button onclick="return calcIMC();">¡CALCULAR!</button>
                 </li>
                 <li>
                     <label for="resultado">RESULTADO:</label>
                     <input type="text" id="resultado" readonly>
                 </li>
+                <li>
+                    <div id="medidor">
+                        <img src="./FILES/imc.png" alt="">
+                    </div>
+                </li>
             </ul>
         </form>
     </section>
     <footer>
-        
+        <p>2021 © 1º DAM Lenguajes de marcas - Tamara P.</p>
     </footer>
     <script type="text/javascript" src="./JS/app.js"></script>
 </body>
